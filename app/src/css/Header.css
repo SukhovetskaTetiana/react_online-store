@@ -1,0 +1,27 @@
+.navigation_bar {
+    grid-area: h;
+    height: 45px;
+    margin: 5px;
+    margin: 20px 0;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+ }
+
+.navigation_bar-link{
+    height: 20px;
+    padding: 10px;
+}
+
+a.active{
+text-decoration: none;
+}
+
+.navigation_bar-verticalLine{
+    border: 2px solid gray;
+    margin: 0 20px;
+}
+
+
+

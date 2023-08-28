@@ -1,0 +1,15 @@
+.productsList-container {
+    width: 69%;
+    height: 480px;
+    background-color: rgb(160, 160, 160);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+

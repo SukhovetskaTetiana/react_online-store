@@ -1,0 +1,8 @@
+.cart-container{
+    grid-area: m;
+    margin: 3px;
+    display: flex;
+    flex-wrap: wrap; /* перенос на новую строку*/
+    justify-content: space-between;
+}
+ 

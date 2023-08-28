@@ -1,0 +1,14 @@
+#root {
+    margin: 20px auto;
+    max-width: 1000px;
+    height: 600px;
+    background-color: #c0c0c0;
+    padding: 10px;
+}
+
+.app-container{
+    display: grid;
+    grid-template-areas: 'h'
+                         'm';
+}
+

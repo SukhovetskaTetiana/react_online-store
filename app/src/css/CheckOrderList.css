@@ -1,0 +1,10 @@
+.checkOrderList-container {
+    width: 470px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(160, 160, 160);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 8px;
+    padding: 15px 15px 5px 15px;
+}
+

@@ -1,0 +1,39 @@
+.sidebarList-container { 
+    width: 250px;
+    height: 480px;
+    background-color: rgb(160, 160, 160);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ } 
+
+.sidebarList-container li {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.sidebarList-container button {
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+}  
+
+.sidebarList-container button:focus {
+    background-color:grey;
+    color: white;   
+} 
+
+.sidebarList-container h3{
+    text-align: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+

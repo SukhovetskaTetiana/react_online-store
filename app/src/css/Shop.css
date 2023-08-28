@@ -1,0 +1,9 @@
+.shop-container {
+    grid-area: m;
+    height: 500px;
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+ 

@@ -1,0 +1,123 @@
+@media screen and (max-width: 600px) {
+    .orderCart-container {
+        height: 120px;
+        font-size: 16px;
+    }
+} 
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .orderCart-container {
+        height: 150px;
+        font-size: 18px;
+        }
+}
+
+@media screen and (min-width: 1201px) {
+    .orderCart-container {
+        height: 160px;
+        font-size: 20px;
+        }
+}
+
+.orderCart-container{
+    margin: 0 0 10px 0;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.orderCart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orderCart-container__picture{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.orderCart-container__picture img{
+    max-width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+.orderCart-container__body{
+    width: 65%;
+    padding: 0 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.orderCart-container__body-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*размещаем эллементы в конце главной оси*/
+}
+
+.body-main__title{
+    width: 250px;
+    margin: 5px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.body-main__action button {
+    background-color: rgb(160, 160, 160);
+    border: none;
+    color: red;
+}
+
+.body-main__action button:active{
+    color: white;
+}
+
+.orderCart-container__body-calc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.body-calc__counter{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-calc__counter button{
+    margin: 0 10px;
+    background-color: rgb(160, 160, 160);
+    border: none;
+    color: rgb(45, 45, 135);
+}
+
+.body-calc__counter button:active{
+    color: white;
+}
+
+.body-calc__counter input{
+    width: 30px;
+}
+
+.body-calc__coast{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-calc__coast-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-calc__coast-currensy{
+    padding: 0 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+

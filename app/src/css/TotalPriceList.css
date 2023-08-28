@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) {
+    .totalPriceList-containet {
+        font-size: 18px;
+    }
+    .totalPriceList-containet h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .totalPriceList-containet {
+        font-size: 20px;
+        }
+    .totalPriceList-containet h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .totalPriceList-containet {
+        font-size: 22px;
+    }
+    .totalPriceList-containet h3{
+        font-size: 22px;
+    }
+}
+
+.totalPriceList-containet{
+    width: 100%;
+    margin: 10px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.totalPriceList-containet__title{
+    width: 80%;
+    text-align: right;
+}
+
+.totalPriceList-containet__calc{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.totalPriceList-containet__currensy {
+    width: 10%;
+    padding: 0 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
