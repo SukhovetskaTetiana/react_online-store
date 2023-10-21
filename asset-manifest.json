@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SukhovetskaTetiana/react_online-store/static/css/main.0b047ee0.css",
+    "main.js": "/SukhovetskaTetiana/react_online-store/static/js/main.1394f6dc.js",
+    "index.html": "/SukhovetskaTetiana/react_online-store/index.html",
+    "main.0b047ee0.css.map": "/SukhovetskaTetiana/react_online-store/static/css/main.0b047ee0.css.map",
+    "main.1394f6dc.js.map": "/SukhovetskaTetiana/react_online-store/static/js/main.1394f6dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b047ee0.css",
+    "static/js/main.1394f6dc.js"
+  ]
+}
