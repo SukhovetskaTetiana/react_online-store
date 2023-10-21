@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Shop />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<Error />} />
+          <Route exact path="/react_online-store" element={<Shop />} />
+          <Route path="/react_online-store/cart" element={<Cart />} />
+          <Route path="/react_online-store/*" element={<Error />} />
         </Routes>
       </Router>
     </div>

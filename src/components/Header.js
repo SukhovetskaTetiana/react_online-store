@@ -15,11 +15,11 @@ function Header() {
     <>
       <div className="navigation_bar">
         <div className="navigation_bar-link" onClick={clickHandler}>
-          <NavLink to="/">Shop</NavLink>
+          <NavLink to="/react_online-store">Shop</NavLink>
         </div>
         <div className="navigation_bar-verticalLine"></div>
         <div className="navigation_bar-link">
-          <NavLink to="/cart">Shopping Cart</NavLink>
+          <NavLink to="/react_online-store/cart">Shopping Cart</NavLink>
         </div>
       </div>
     </>
